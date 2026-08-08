@@ -386,14 +386,14 @@
   },
   "hero": {
     "en": {
-      "eyebrow": "Ph.D. Educational Leadership, University of Warwick",
+      "eyebrow": "Ph.D. Educational Leadership #WarwickGrad",
       "h1": "20+ years researching and practicing educational leadership across the Arab world.",
       "lede": "Dr. Rania Sawalhi is a Jordanian scholar and practitioner based between Amman and the Gulf, working on teacher and school leadership, women's educational leadership, and leadership in times of disruption — translating research into training, policy, and practice across K-12 and higher education.",
       "ctaPrimary": "Book a consultation",
       "ctaGhost": "View publications"
     },
     "ar": {
-      "eyebrow": "دكتوراه في القيادة التربوية، جامعة وورك",
+      "eyebrow": " دكتوراه في القيادة التربوية، خريجة جامعة وورك بريطانيا",
       "h1": "أكثر من 20 عامًا في بحث وممارسة القيادة التربوية في العالم العربي.",
       "lede": "د. رانيا الصوالحي باحثة وممارِسة أردنية تعمل بين عمّان والخليج، في مجالات قيادة المعلم والمدرسة، والقيادة التربوية النسائية، والقيادة في أوقات الأزمات — بترجمة البحث العلمي إلى تدريب وسياسات وممارسة عبر مراحل التعليم العام والعالي.",
       "ctaPrimary": "احجز استشارة",
@@ -401,7 +401,7 @@
     },
     "stats": [
       {
-        "value": "764",
+        "value": "915",
         "labelEn": "Citations, Scholar",
         "labelAr": "استشهاد — Scholar",
         "url": "https://scholar.google.com/citations?user=XIwgZikAAAAJ&hl=en"
