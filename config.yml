@@ -1,0 +1,366 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images"
+public_folder: "images"
+
+collections:
+  - name: "site"
+    label: "Site (data file)"
+    files:
+      - name: "content"
+        label: "All Website Content"
+        file: "content/site.json"
+        fields:
+
+          - label: "Site-wide"
+            name: "site"
+            widget: object
+            fields:
+              - {label: "Profile Photo", name: "photo", widget: image, required: false}
+              - {label: "Email", name: "email", widget: string}
+              - {label: "Based in", name: "based", widget: string}
+              - {label: "Affiliation", name: "affiliation", widget: string}
+              - label: "Social Links"
+                name: socialLinks
+                widget: object
+                fields:
+                  - {label: YouTube, name: youtube, widget: string}
+                  - {label: LinkedIn, name: linkedin, widget: string}
+                  - {label: "Google Scholar", name: scholar, widget: string}
+                  - {label: Scopus, name: scopus, widget: string}
+                  - {label: ORCID, name: orcid, widget: string}
+
+          - label: "Navigation (EN / AR)"
+            name: nav
+            widget: object
+            fields:
+              - label: English
+                name: en
+                widget: object
+                fields:
+                  - {label: "Name shown in header", name: logoName, widget: string}
+                  - {label: "Title under name", name: logoTag, widget: string}
+                  - {label: "About", name: about, widget: string}
+                  - {label: Awards, name: awards, widget: string}
+                  - {label: Initiatives, name: initiatives, widget: string}
+                  - {label: Teaching, name: teaching, widget: string}
+                  - {label: Publications, name: publications, widget: string}
+                  - {label: Media, name: media, widget: string}
+                  - {label: Consultations, name: consultations, widget: string}
+                  - {label: "Book button", name: bookBtn, widget: string}
+              - label: Arabic
+                name: ar
+                widget: object
+                fields:
+                  - {label: "Name shown in header", name: logoName, widget: string}
+                  - {label: "Title under name", name: logoTag, widget: string}
+                  - {label: About, name: about, widget: string}
+                  - {label: Awards, name: awards, widget: string}
+                  - {label: Initiatives, name: initiatives, widget: string}
+                  - {label: Teaching, name: teaching, widget: string}
+                  - {label: Publications, name: publications, widget: string}
+                  - {label: Media, name: media, widget: string}
+                  - {label: Consultations, name: consultations, widget: string}
+                  - {label: "Book button", name: bookBtn, widget: string}
+
+          - label: "Hero Section"
+            name: hero
+            widget: object
+            fields:
+              - label: English
+                name: en
+                widget: object
+                fields:
+                  - {label: "Small label above title", name: eyebrow, widget: string}
+                  - {label: "Main headline", name: h1, widget: text}
+                  - {label: "Paragraph", name: lede, widget: text}
+                  - {label: "Primary button text", name: ctaPrimary, widget: string}
+                  - {label: "Secondary button text", name: ctaGhost, widget: string}
+              - label: Arabic
+                name: ar
+                widget: object
+                fields:
+                  - {label: "Small label above title", name: eyebrow, widget: string}
+                  - {label: "Main headline", name: h1, widget: text}
+                  - {label: "Paragraph", name: lede, widget: text}
+                  - {label: "Primary button text", name: ctaPrimary, widget: string}
+                  - {label: "Secondary button text", name: ctaGhost, widget: string}
+              - label: "Stat boxes"
+                name: stats
+                widget: list
+                fields:
+                  - {label: "Number", name: value, widget: string}
+                  - {label: "English label", name: labelEn, widget: string}
+                  - {label: "Arabic label", name: labelAr, widget: string}
+                  - {label: "Link (optional — makes the stat clickable)", name: url, widget: string, required: false}
+
+          - label: "About Section"
+            name: about
+            widget: object
+            fields:
+              - label: English
+                name: en
+                widget: object
+                fields:
+                  - {label: Heading, name: h2, widget: string}
+                  - {label: "Paragraph 1", name: p1, widget: text}
+                  - {label: Quote, name: quote, widget: text}
+                  - {label: "Paragraph 2", name: p2, widget: text}
+              - label: Arabic
+                name: ar
+                widget: object
+                fields:
+                  - {label: Heading, name: h2, widget: string}
+                  - {label: "Paragraph 1", name: p1, widget: text}
+                  - {label: Quote, name: quote, widget: text}
+                  - {label: "Paragraph 2", name: p2, widget: text}
+              - label: "Education line"
+                name: credEducation
+                widget: object
+                fields:
+                  - {label: English, name: en, widget: string}
+                  - {label: Arabic, name: ar, widget: string}
+
+          - label: "Awards Section"
+            name: awards
+            widget: object
+            fields:
+              - label: English
+                name: en
+                widget: object
+                fields:
+                  - {label: "Small label", name: eyebrow, widget: string}
+                  - {label: Heading, name: h2, widget: string}
+              - label: Arabic
+                name: ar
+                widget: object
+                fields:
+                  - {label: "Small label", name: eyebrow, widget: string}
+                  - {label: Heading, name: h2, widget: string}
+              - label: "Award list"
+                name: items
+                widget: list
+                fields:
+                  - {label: Year, name: year, widget: string}
+                  - {label: "Title (English)", name: titleEn, widget: string}
+                  - {label: "Title (Arabic)", name: titleAr, widget: string}
+                  - {label: "Note (English)", name: noteEn, widget: string, required: false}
+                  - {label: "Note (Arabic)", name: noteAr, widget: string, required: false}
+
+          - label: "Initiatives Section"
+            name: initiatives
+            widget: object
+            fields:
+              - label: English
+                name: en
+                widget: object
+                fields:
+                  - {label: "Small label", name: eyebrow, widget: string}
+                  - {label: Heading, name: h2, widget: string}
+              - label: Arabic
+                name: ar
+                widget: object
+                fields:
+                  - {label: "Small label", name: eyebrow, widget: string}
+                  - {label: Heading, name: h2, widget: string}
+              - label: "Initiative list"
+                name: items
+                widget: list
+                fields:
+                  - {label: "Name (same both languages)", name: title, widget: string}
+                  - {label: "Role tag (English)", name: tagEn, widget: string}
+                  - {label: "Role tag (Arabic)", name: tagAr, widget: string}
+                  - {label: "Description (English)", name: descEn, widget: text}
+                  - {label: "Description (Arabic)", name: descAr, widget: text}
+
+          - label: "Teaching & Training Section"
+            name: teaching
+            widget: object
+            fields:
+              - label: English
+                name: en
+                widget: object
+                fields:
+                  - {label: "Small label", name: eyebrow, widget: string}
+                  - {label: Heading, name: h2, widget: string}
+              - label: Arabic
+                name: ar
+                widget: object
+                fields:
+                  - {label: "Small label", name: eyebrow, widget: string}
+                  - {label: Heading, name: h2, widget: string}
+              - label: "Positions list"
+                name: positions
+                widget: list
+                fields:
+                  - {label: Dates, name: dates, widget: string}
+                  - {label: "Title (English)", name: titleEn, widget: string}
+                  - {label: "Title (Arabic)", name: titleAr, widget: string}
+                  - {label: "Organization (English)", name: org, widget: string}
+                  - {label: "Organization (Arabic)", name: orgAr, widget: string}
+                  - {label: "Description (English)", name: descEn, widget: text}
+                  - {label: "Description (Arabic)", name: descAr, widget: text}
+              - label: "Training stat box"
+                name: trainingStat
+                widget: object
+                fields:
+                  - {label: Number, name: value, widget: string}
+                  - {label: "Label (English)", name: labelEn, widget: string}
+                  - {label: "Label (Arabic)", name: labelAr, widget: string}
+                  - {label: "Note (English)", name: noteEn, widget: string}
+                  - {label: "Note (Arabic)", name: noteAr, widget: string}
+
+          - label: "Publications Section"
+            name: publications
+            widget: object
+            fields:
+              - label: English
+                name: en
+                widget: object
+                fields:
+                  - {label: "Small label", name: eyebrow, widget: string}
+                  - {label: Heading, name: h2, widget: string}
+                  - {label: "Scholar link text", name: scholarLink, widget: string}
+              - label: Arabic
+                name: ar
+                widget: object
+                fields:
+                  - {label: "Small label", name: eyebrow, widget: string}
+                  - {label: Heading, name: h2, widget: string}
+                  - {label: "Scholar link text", name: scholarLink, widget: string}
+              - label: "Books list"
+                name: books
+                widget: list
+                fields:
+                  - {label: "Tag (English, e.g. Book)", name: tagEn, widget: string}
+                  - {label: "Tag (Arabic)", name: tagAr, widget: string}
+                  - {label: "Title (same both languages)", name: title, widget: string}
+                  - {label: "Details (English)", name: venueEn, widget: string}
+                  - {label: "Details (Arabic)", name: venueAr, widget: string}
+              - label: "Journal articles list"
+                name: articles
+                widget: list
+                fields:
+                  - {label: "Title (English)", name: titleEn, widget: text}
+                  - {label: "Title (Arabic)", name: titleAr, widget: text}
+                  - {label: "Details (English)", name: venueEn, widget: string}
+                  - {label: "Details (Arabic)", name: venueAr, widget: string}
+                  - {label: Year, name: year, widget: string}
+              - label: "Arabic-only publications list"
+                name: arabicOnly
+                widget: list
+                fields:
+                  - {label: Title, name: title, widget: string}
+                  - {label: Details, name: venue, widget: string, required: false}
+                  - {label: Year, name: year, widget: string}
+
+          - label: "Media Section"
+            name: media
+            widget: object
+            fields:
+              - label: English
+                name: en
+                widget: object
+                fields:
+                  - {label: "Small label", name: eyebrow, widget: string}
+                  - {label: Heading, name: h2, widget: string}
+                  - {label: "'Elsewhere' subheading", name: elseSub, widget: string}
+              - label: Arabic
+                name: ar
+                widget: object
+                fields:
+                  - {label: "Small label", name: eyebrow, widget: string}
+                  - {label: Heading, name: h2, widget: string}
+                  - {label: "'Elsewhere' subheading", name: elseSub, widget: string}
+              - label: "Videos list"
+                name: videos
+                widget: list
+                fields:
+                  - {label: "Title (English)", name: titleEn, widget: string}
+                  - {label: "Title (Arabic)", name: titleAr, widget: string}
+                  - {label: "Meta line (e.g. event name)", name: meta, widget: string}
+                  - {label: "Video URL", name: url, widget: string}
+                  - {label: "Thumbnail image", name: thumbnail, widget: image, required: false}
+
+          - label: "Consultations Section"
+            name: consultations
+            widget: object
+            fields:
+              - label: English
+                name: en
+                widget: object
+                fields:
+                  - {label: "Small label", name: eyebrow, widget: string}
+                  - {label: Heading, name: h2, widget: string}
+                  - {label: Paragraph, name: lede, widget: text}
+                  - {label: "CTA title", name: ctaTitle, widget: string}
+                  - {label: "CTA description", name: ctaDesc, widget: string}
+                  - {label: "CTA button", name: ctaBtn, widget: string}
+              - label: Arabic
+                name: ar
+                widget: object
+                fields:
+                  - {label: "Small label", name: eyebrow, widget: string}
+                  - {label: Heading, name: h2, widget: string}
+                  - {label: Paragraph, name: lede, widget: text}
+                  - {label: "CTA title", name: ctaTitle, widget: string}
+                  - {label: "CTA description", name: ctaDesc, widget: string}
+                  - {label: "CTA button", name: ctaBtn, widget: string}
+              - label: "Service cards"
+                name: cards
+                widget: list
+                fields:
+                  - {label: "Title (English)", name: titleEn, widget: string}
+                  - {label: "Title (Arabic)", name: titleAr, widget: string}
+                  - {label: "Description (English) — currently hidden on the site", name: descEn, widget: text, required: false}
+                  - {label: "Description (Arabic) — currently hidden on the site", name: descAr, widget: text, required: false}
+
+          - label: "Contact / Footer Section"
+            name: contact
+            widget: object
+            fields:
+              - label: English
+                name: en
+                widget: object
+                fields:
+                  - {label: "Small label", name: eyebrow, widget: string}
+                  - {label: Heading, name: h2, widget: string}
+                  - {label: Paragraph, name: lede, widget: text}
+                  - {label: "Closing note", name: note, widget: string}
+                  - {label: Copyright, name: copyright, widget: string}
+                  - {label: Tagline, name: tagline, widget: string}
+              - label: Arabic
+                name: ar
+                widget: object
+                fields:
+                  - {label: "Small label", name: eyebrow, widget: string}
+                  - {label: Heading, name: h2, widget: string}
+                  - {label: Paragraph, name: lede, widget: text}
+                  - {label: "Closing note", name: note, widget: string}
+                  - {label: Copyright, name: copyright, widget: string}
+                  - {label: Tagline, name: tagline, widget: string}
+
+          - label: "Booking Popup"
+            name: booking
+            widget: object
+            fields:
+              - label: English
+                name: en
+                widget: object
+                fields:
+                  - {label: Title, name: title, widget: string}
+                  - {label: Paragraph, name: lede, widget: text}
+                  - {label: "Confirmation title", name: confirmTitle, widget: string}
+                  - {label: "Confirmation text", name: confirmLede, widget: text}
+                  - {label: "Close button", name: closeBtn, widget: string}
+              - label: Arabic
+                name: ar
+                widget: object
+                fields:
+                  - {label: Title, name: title, widget: string}
+                  - {label: Paragraph, name: lede, widget: text}
+                  - {label: "Confirmation title", name: confirmTitle, widget: string}
+                  - {label: "Confirmation text", name: confirmLede, widget: text}
+                  - {label: "Close button", name: closeBtn, widget: string}
