@@ -314,14 +314,14 @@
     "en": {
       "h2": "Research grounded in practice.",
       "p1": "Dr. Sawalhi's work spans three authored/edited books with Routledge and Springer Nature, nine book chapters, and 31 peer-reviewed journal articles — including comparative studies across Jordan, Qatar, Oman, Kuwait, the UAE, and the wider MENA region, with recent collaborations in the Netherlands and North America. She is currently completing two edited volumes under contract with Emerald Publishing and serves as Regional Editor (MENA) for The Second International Handbook of School Effectiveness and Improvement (Springer).",
-      "quote": "Twenty years of research means little unless it changes how a teacher is led on a Tuesday morning.",
-      "p2": "Beyond academia, she has translated research into practice as Deputy Director of Learning & Outreach at Dadu, the Children's Museum of Qatar, and as co-founder of NEAR/WERA and Eduenterprise — two regional initiatives building educational leadership capacity across the Arab world."
+      "quote": "Twenty years of research matter only when they change what leadership looks like in the everyday life of a school—on a Tuesday morning, in a teacher’s classroom, and in the experiences of students.",
+      "p2": "Beyond academia, she has consistently translated research into practice through her professional roles, including as Deputy Director of Learning & Outreach at Dadu, the Children’s Museum of Qatar, and through co-founding NEAR/WERA and Eduenterprise—two regional initiatives dedicated to building educational leadership capacity across the Arab world."
     },
     "ar": {
       "h2": "بحث متجذر في الممارسة.",
       "p1": "يمتد عمل د. الصوالحي على ثلاثة كتب مؤلَّفة أو محرَّرة مع Routledge وSpringer Nature، وتسعة فصول كتب، و31 مقالًا محكّمًا — شملت دراسات مقارِنة عبر الأردن وقطر وعُمان والكويت والإمارات ومنطقة الشرق الأوسط وشمال أفريقيا، إضافة إلى تعاونات حديثة في هولندا وأمريكا الشمالية. وهي حاليًا بصدد إنجاز مجلدين محرَّرين بعقد مع Emerald Publishing، وتشغل منصب المحرر الإقليمي (منطقة الشرق الأوسط وشمال أفريقيا) في The Second International Handbook of School Effectiveness and Improvement (Springer).",
-      "quote": "عشرون عامًا من البحث لا تعني شيئًا ما لم تُغيّر كيف يشارك المعلم والطلبة في  الممارسات القيادية اليومية.",
-      "p2": "إلى جانب العمل الأكاديمي، ترجمت البحث إلى ممارسة كنائب مدير التعلّم والتواصل المجتمعي في دد، متحف الأطفال في قطر، وكشريك مؤسس لشبكة NEAR/WERA ومؤسسة Eduenterprise — وهما مبادرتان إقليميتان لبناء القدرات في القيادة التربوية عبر العالم العربي."
+      "quote": " قيمة عشرين عامًا من البحث والممارسة لا تكمن في المعرفة التي ننتجها فحسب، بل في قدرتها على إحداث تغيير ملموس في كيفية مشاركة المعلمين والطلبة في الممارسات القيادية اليومية.",
+      "p2": "إلى جانب العمل الأكاديمي، حرصتُ على ترجمة البحث والمعرفة التربوية إلى ممارسة من خلال عملي نائبًا لمدير التعلّم والتواصل المجتمعي في متحف الأطفال قطر، ومن خلال تأسيسي وشراكتي في مبادرات إقليمية تُعنى ببناء القدرات وتعزيز القيادة التربوية، من أبرزها شبكة NEAR/WERA ومؤسسة Eduenterprise، اللتان تعملان على دعم القيادات التربوية وتطوير الممارسات التعليمية في العالم العربي."
     },
     "credEducation": {
       "en": "Ph.D. Educational Leadership, University of Warwick, UK — 2019",
@@ -335,7 +335,7 @@
     },
     "ar": {
       "eyebrow": "الجوائز والتكريمات",
-      "h2": "تقدير"
+      "h2": "محطات"
     },
     "items": [
       {
@@ -387,14 +387,14 @@
   "hero": {
     "en": {
       "eyebrow": "Ph.D. Educational Leadership, #Warwick_Grad",
-      "h1": "20+ years researching and practicing educational leadership across the Arab world. ",
+      "h1": "20+ years researching and practicing educational leadership. ",
       "lede": "Dr. Rania Sawalhi is a Jordanian scholar and practitioner based between Amman and the Gulf, working on teacher and school leadership, women's educational leadership, and leadership in times of disruption — translating research into training, policy, and practice across K-12 and higher education.",
       "ctaPrimary": "Book a consultation",
       "ctaGhost": "View publications"
     },
     "ar": {
       "eyebrow": "دكتوراه في القيادة التربوية، جامعة وورك",
-      "h1": "أكثر من 20 عامًا في بحث وممارسة القيادة التربوية في العالم العربي.",
+      "h1": "أكثر من 20 عامًا في بحث وممارسة القيادة التربوية.",
       "lede": "د. رانيا الصوالحي باحثة وممارِسة أردنية تعمل بين عمّان والخليج، في مجالات القيادة المدرسية والتعليم العالي، والقيادة التربوية النسائية، والقيادة في أوقات الأزمات — بترجمة البحث العلمي إلى تدريب وسياسات وممارسة عبر مراحل التعليم العام والعالي.",
       "ctaPrimary": "احجز استشارة",
       "ctaGhost": "استعرض المنشورات"
