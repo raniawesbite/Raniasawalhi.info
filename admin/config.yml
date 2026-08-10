@@ -151,6 +151,7 @@ collections:
                   - {label: "Title (Arabic)", name: titleAr, widget: string}
                   - {label: "Note (English)", name: noteEn, widget: string, required: false}
                   - {label: "Note (Arabic)", name: noteAr, widget: string, required: false}
+                  - {label: "Photo (optional)", name: image, widget: image, required: false}
 
           - label: "Initiatives Section"
             name: initiatives
@@ -177,6 +178,7 @@ collections:
                   - {label: "Role tag (Arabic)", name: tagAr, widget: string}
                   - {label: "Description (English)", name: descEn, widget: text}
                   - {label: "Description (Arabic)", name: descAr, widget: text}
+                  - {label: "Photo (optional)", name: image, widget: image, required: false}
 
           - label: "Teaching & Training Section"
             name: teaching
@@ -205,6 +207,7 @@ collections:
                   - {label: "Organization (Arabic)", name: orgAr, widget: string}
                   - {label: "Description (English)", name: descEn, widget: text}
                   - {label: "Description (Arabic)", name: descAr, widget: text}
+                  - {label: "Photo (optional)", name: image, widget: image, required: false}
               - label: "Training stat box"
                 name: trainingStat
                 widget: object
@@ -242,6 +245,7 @@ collections:
                   - {label: "Title (same both languages)", name: title, widget: string}
                   - {label: "Details (English)", name: venueEn, widget: string}
                   - {label: "Details (Arabic)", name: venueAr, widget: string}
+                  - {label: "Cover image (optional)", name: image, widget: image, required: false}
               - label: "Journal articles list"
                 name: articles
                 widget: list
