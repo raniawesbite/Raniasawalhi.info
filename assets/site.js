@@ -163,7 +163,8 @@ function renderAbout(en){
 function renderAwards(en){
   const T = DATA.awards[LANG];
   const items = DATA.awards.items.map(function(a){
-    return '<div class="award-card"><span class="award-year">'+esc(a.year)+'</span><div><div class="award-title">'+esc(en?a.titleEn:a.titleAr)+'</div>'+((en?a.noteEn:a.noteAr)?'<div class="award-note">'+esc(en?a.noteEn:a.noteAr)+'</div>':'')+'</div></div>';
+    const thumb = a.image ? '<img class="award-thumb" src="'+esc(a.image)+'" alt="">' : '';
+    return '<div class="award-card">'+thumb+'<span class="award-year">'+esc(a.year)+'</span><div><div class="award-title">'+esc(en?a.titleEn:a.titleAr)+'</div>'+((en?a.noteEn:a.noteAr)?'<div class="award-note">'+esc(en?a.noteEn:a.noteAr)+'</div>':'')+'</div></div>';
   }).join('');
   return `
   <section>
@@ -178,7 +179,8 @@ function renderAwards(en){
 function renderInitiatives(en){
   const T = DATA.initiatives[LANG];
   const items = DATA.initiatives.items.map(function(i){
-    return '<div class="init-card"><span class="role-tag">'+esc(en?i.tagEn:i.tagAr)+'</span><h3>'+esc(i.title)+'</h3><p>'+esc(en?i.descEn:i.descAr)+'</p></div>';
+    const thumb = i.image ? '<img class="init-thumb" src="'+esc(i.image)+'" alt="">' : '';
+    return '<div class="init-card">'+thumb+'<span class="role-tag">'+esc(en?i.tagEn:i.tagAr)+'</span><h3>'+esc(i.title)+'</h3><p>'+esc(en?i.descEn:i.descAr)+'</p></div>';
   }).join('');
   return `
   <section>
@@ -193,7 +195,8 @@ function renderInitiatives(en){
 function renderTeaching(en){
   const T = DATA.teaching[LANG];
   const rows = DATA.teaching.positions.map(function(p){
-    return '<li class="pos-row"><div class="pos-dates">'+esc(p.dates)+'</div><div><div class="pos-title">'+esc(en?p.titleEn:p.titleAr)+'</div><div class="pos-org">'+esc(en?p.org:p.orgAr)+'</div><p class="pos-desc">'+esc(en?p.descEn:p.descAr)+'</p></div></li>';
+    const thumb = p.image ? '<img class="pos-thumb" src="'+esc(p.image)+'" alt="">' : '';
+    return '<li class="pos-row"><div class="pos-dates">'+esc(p.dates)+'</div><div class="pos-body">'+thumb+'<div><div class="pos-title">'+esc(en?p.titleEn:p.titleAr)+'</div><div class="pos-org">'+esc(en?p.org:p.orgAr)+'</div><p class="pos-desc">'+esc(en?p.descEn:p.descAr)+'</p></div></div></li>';
   }).join('');
   return `
   <section>
@@ -212,7 +215,8 @@ function renderTeaching(en){
 function renderPublications(en){
   const T = DATA.publications[LANG];
   const books = DATA.publications.books.map(function(b){
-    return '<div class="card"><span class="tag">'+esc(en?b.tagEn:b.tagAr)+'</span><h3>'+esc(b.title)+'</h3><p class="venue">'+esc(en?b.venueEn:b.venueAr)+'</p></div>';
+    const thumb = b.image ? '<img class="book-thumb" src="'+esc(b.image)+'" alt="">' : '';
+    return '<div class="card">'+thumb+'<span class="tag">'+esc(en?b.tagEn:b.tagAr)+'</span><h3>'+esc(b.title)+'</h3><p class="venue">'+esc(en?b.venueEn:b.venueAr)+'</p></div>';
   }).join('');
   const articles = DATA.publications.articles.map(function(a){
     return '<li class="pub-row"><div><span class="p-title">'+esc(en?a.titleEn:a.titleAr)+'</span><span class="p-venue">'+esc(en?a.venueEn:a.venueAr)+'</span></div><span class="p-year">'+esc(a.year)+'</span></li>';
@@ -352,13 +356,41 @@ function openBooking(){
 function closeBooking(){ document.getElementById('bookingModal').classList.remove('open'); }
 function handleBookingSubmit(e){
   e.preventDefault();
+  const form = e.target;
+  const inputs = form.querySelectorAll('input');
+  const name = inputs[0] ? inputs[0].value : '';
+  const email = inputs[1] ? inputs[1].value : '';
+  const org = inputs[2] ? inputs[2].value : '';
+  const date = inputs[3] ? inputs[3].value : '';
+  const message = form.querySelector('textarea') ? form.querySelector('textarea').value : '';
+  const subject = encodeURIComponent((LANG==='ar' ? 'طلب حجز استشارة من ' : 'Consultation request from ') + name);
+  const body = encodeURIComponent(
+    (LANG==='ar' ? 'الاسم: ' : 'Name: ') + name + '\n' +
+    (LANG==='ar' ? 'البريد: ' : 'Email: ') + email + '\n' +
+    (LANG==='ar' ? 'الجهة: ' : 'Organization: ') + org + '\n' +
+    (LANG==='ar' ? 'التاريخ: ' : 'Date: ') + date + '\n' +
+    (LANG==='ar' ? 'الرسالة: ' : 'Message: ') + message
+  );
+  window.location.href = 'mailto:' + esc(DATA.site.email) + '?subject=' + subject + '&body=' + body;
   document.getElementById('bookingForm').style.display = 'none';
   document.getElementById('bookingConfirm').classList.add('open');
   return false;
 }
 function handleContactSubmit(e){
   e.preventDefault();
-  alert(LANG==='ar' ? "شكرًا! هذا النموذج التجريبي غير مرتبط ببريد إلكتروني بعد." : "Thanks! This demo form isn't wired to an inbox yet.");
+  const form = e.target;
+  const inputs = form.querySelectorAll('input');
+  const name = inputs[0] ? inputs[0].value : '';
+  const email = inputs[1] ? inputs[1].value : '';
+  const message = form.querySelector('textarea') ? form.querySelector('textarea').value : '';
+  const subject = encodeURIComponent((LANG==='ar' ? 'رسالة من ' : 'Message from ') + name + (LANG==='ar' ? ' عبر الموقع' : ' via website'));
+  const body = encodeURIComponent(
+    (LANG==='ar' ? 'الاسم: ' : 'Name: ') + name + '\n' +
+    (LANG==='ar' ? 'البريد: ' : 'Email: ') + email + '\n' +
+    (LANG==='ar' ? 'الرسالة: ' : 'Message: ') + message
+  );
+  window.location.href = 'mailto:' + esc(DATA.site.email) + '?subject=' + subject + '&body=' + body;
+  alert(LANG==='ar' ? "سيتم فتح تطبيق البريد لديك لإتمام الإرسال." : "Your email app will open to complete sending.");
   e.target.reset();
   return false;
 }
