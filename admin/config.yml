@@ -178,7 +178,7 @@ collections:
                   - {label: "Role tag (Arabic)", name: tagAr, widget: string}
                   - {label: "Description (English)", name: descEn, widget: text}
                   - {label: "Description (Arabic)", name: descAr, widget: text}
-                  - {label: "Photo (optional)", name: image, widget: image, required: false}
+                  - {label: "Link (optional)", name: url, widget: string, required: false}
 
           - label: "Teaching & Training Section"
             name: teaching
