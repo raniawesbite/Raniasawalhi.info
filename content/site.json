@@ -81,7 +81,7 @@
     ]
   },
   "site": {
-    "photo": "images/profile.jpg",
+    "photo": "images/20180816_101844-1-.jpg",
     "email": "r.sawalhi@ju.edu.jo",
     "based": "Amman, Jordan",
     "affiliation": "School of Educational Sciences, The University of Jordan",
@@ -219,14 +219,16 @@
         "tagEn": "Co-founder",
         "tagAr": "شريك مؤسس",
         "descEn": "A non-profit that launched the Educational Leadership Lab — the first in the Arab region using a design-thinking approach — and the first Arabic-language Educational Leadership Scale, a validated self-assessment tool.",
-        "descAr": "مؤسسة غير ربحية أطلقت مختبر القيادة التربوية — الأول من نوعه في المنطقة العربية القائم على التفكير التصميمي — ومقياس القيادة التربوية باللغة العربية، وهو أداة تقييم ذاتي موثّقة."
+        "descAr": "مؤسسة غير ربحية أطلقت مختبر القيادة التربوية — الأول من نوعه في المنطقة العربية القائم على التفكير التصميمي — ومقياس القيادة التربوية باللغة العربية، وهو أداة تقييم ذاتي .",
+        "url": "https://eduenterprise.org/ar/publications"
       },
       {
         "title": "NEAR / WERA",
         "tagEn": "Co-convener",
         "tagAr": "شريكة تأسيس",
-        "descEn": "The Research Network for Education in the Arab World, an International Research Network of the World Educational Research Association, co-founded with Khalid Arar and colleagues.",
-        "descAr": "شبكة أبحاث التربية في العالم العربي، شبكة بحثية دولية تابعة للجمعية العالمية لأبحاث التربية، شاركت في تأسيسها مع خالد أرار وزملاء آخرين."
+        "descEn": "The Research Network for Education in the Arab World, an International Research Network of the World Educational Research Association, co-founded with Prof Khalid Arar and colleagues.",
+        "descAr": "شبكة أبحاث التربية في العالم العربي، شبكة بحثية دولية تابعة للجمعية العالمية لأبحاث التربية، شاركت في تأسيسها مع  أ د خالد عرار وزملاء آخرين.",
+        "url": "https://near.eduenterprise.org/ar/register"
       },
       {
         "title": "WomenEdMENA",
@@ -240,7 +242,8 @@
         "tagEn": "Founder",
         "tagAr": "مؤسِّسة",
         "descEn": "Educational Leadership for Innovation and Sustainability, a research group at the University of Jordan.",
-        "descAr": "القيادة التربوية من أجل الابتكار والاستدامة، مجموعة بحثية في الجامعة الأردنية."
+        "descAr": "القيادة التربوية من أجل الابتكار والاستدامة، مجموعة بحثية في الجامعة الأردنية.",
+        "url": "https://research.ju.edu.jo/research/groups/ELIS/Home.aspx"
       },
       {
         "title": "Educational Leadership Lab",
@@ -261,30 +264,33 @@
       {
         "title": "ICSEI_ELN",
         "tagEn": "Co-coordinator (2021–present)",
-        "tagAr": "منسّقة مشاركة (2021–حتى الآن)",
+        "tagAr": "منسقة (2021–حتى الآن)",
         "descEn": "The Educational Leadership Network is for leaders at all levels — in practice, policy, and research. The network is open to everyone interested in matters of management and leadership in the educational realm.",
-        "descAr": "شبكة القيادة التربوية موجهة للقادة على جميع المستويات — في الممارسة والسياسات والبحث. الشبكة مفتوحة لكل مهتم بشؤون الإدارة والقيادة في المجال التربوي."
+        "descAr": "شبكة القيادة التربوية موجهة للقادة على جميع المستويات — في الممارسة والسياسات والبحث. الشبكة مفتوحة لكل مهتم بشؤون الإدارة والقيادة في المجال التربوي.",
+        "url": "https://icsei.org/network/educational-leadership-network/"
       },
       {
         "title": "Khair Jalees-Allemni",
-        "tagEn": "Co-leader (since 2013)",
-        "tagAr": "شريكة قيادة (منذ 2013)",
-        "descEn": "Dr. Rania Sawalhi has been a co-leader of the initiative since 2013 and played a key role in establishing a reading group specifically tailored for educators (Alumni).",
-        "descAr": "شاركت د. رانيا الصوالحي في قيادة هذه المبادرة منذ عام 2013، ولعبت دورًا رئيسيًا في تأسيس مجموعة قراءة مخصصة للتربويين (الخريجين)."
+        "tagEn": "Co-founder (2013-2024)",
+        "tagAr": "شريك مؤسس (2013-2024)",
+        "descEn": "Dr. Rania Sawalhi has been a co-founder of the initiative since 2013 and played a key role in establishing a reading group specifically tailored for educators (Allemni).",
+        "descAr": "شاركت د. رانيا الصوالحي في تأسيس هذه المبادرة منذ عام 2013، ولعبت دورًا رئيسيًا في تأسيس مجموعة قراءة مخصصة للتربويين .",
+        "url": "https://www.instagram.com/khair_jalees/?hl=ar"
       },
       {
         "title": "Qatar Red Crescent",
-        "tagEn": "MHPSS Team Leader (2016–present)",
-        "tagAr": "قائدة فريق الدعم النفسي والاجتماعي (2016–حتى الآن)",
+        "tagEn": "MHPSS Team Leader (2016–2022)",
+        "tagAr": "قائدة فريق الدعم النفسي والاجتماعي (2016–2022)",
         "descEn": "QRCS launched the MHPSS team in 2018, where Dr. Rania Sawalhi participated in leading the team during COVID-19 and many other tasks.",
         "descAr": "أطلق الهلال الأحمر القطري فريق الدعم النفسي والاجتماعي عام 2018، حيث شاركت د. رانيا الصوالحي في قيادة الفريق خلال جائحة كورونا ومهام أخرى عديدة."
       },
       {
-        "title": "القراءة المحررة: القراءة مفتاح الحرية",
+        "title": "Reading is the key to freedom.",
         "tagEn": "Reading initiative",
         "tagAr": "مبادرة قرائية",
         "descEn": "A reading initiative presenting new perspectives on reading and how it can be a path to freedom and community empowerment.",
-        "descAr": "منصة تطرح مفاهيم جديدة حول القراءة وكيف يمكن أن تكون طريقًا نحو الحرية وتمكين المجتمع."
+        "descAr": "منصة تطرح مفاهيم جديدة حول القراءة وكيف يمكن أن تكون طريقًا نحو الحرية وتمكين المجتمع.",
+        "url": "https://sirajedu.org/courses/reading-course/"
       },
       {
         "title": "Injaz Qatar",
@@ -321,15 +327,15 @@
       },
       {
         "titleEn": "School & district training",
-        "titleAr": "تدريب المدارس والمديريات",
-        "descEn": "Workshops in instructional leadership, teacher coaching, and design thinking for school leadership teams.",
+        "titleAr": "تدريب المدارس والمؤسسات",
+        "descEn": "Workshops in instructional leadership, teacher leadership, and design thinking for school leadership teams.",
         "descAr": "ورش عمل في القيادة التعليمية، وتدريب المعلمين، والتفكير التصميمي لفرق القيادة المدرسية."
       },
       {
         "titleEn": "Program & policy review",
         "titleAr": "مراجعة البرامج والسياسات",
         "descEn": "External review of educational leadership programs, proposals, and graduate curricula.",
-        "descAr": "مراجعة خارجية لبرامج القيادة التربوية والمقترحات ومناهج الدراسات العليا."
+        "descAr": "مراجعة خارجية لبرامج القيادة التربوية والمقترحات ."
       }
     ]
   },
@@ -429,7 +435,7 @@
     },
     "ar": {
       "title": "احجز موعدًا",
-      "lede": "أخبريني قليلًا عمّا تبحثين عنه، وسأتواصل خلال 2–3 أيام عمل.",
+      "lede": "أخبرني قليلًا عمّا تبحث عنه، وسأتواصل خلال 2–3 أيام عمل.",
       "confirmTitle": "تم إرسال الطلب",
       "confirmLede": "شكرًا — ستصلك رسالة بريد إلكتروني خلال 2–3 أيام عمل لتأكيد الموعد.",
       "closeBtn": "إغلاق"
@@ -452,7 +458,7 @@
     },
     "stats": [
       {
-        "value": "920",
+        "value": "928",
         "labelEn": "Citations, Scholar",
         "labelAr": "استشهاد — Scholar",
         "url": "https://scholar.google.com/citations?user=XIwgZikAAAAJ&hl=en"
