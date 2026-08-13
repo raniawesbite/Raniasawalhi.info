@@ -87,8 +87,8 @@ html[dir="rtl"] .award-year{font-family:'IBM Plex Sans Arabic', sans-serif;}
 .award-note{color:var(--ink-faint); font-size:13.5px;}
 
 .init-grid{display:grid; grid-template-columns:repeat(2,1fr); gap:20px;}
-.init-card{background:var(--paper); border:1px solid var(--line); border-radius:var(--radius); padding:26px;}
-.init-card .init-thumb{width:100%; aspect-ratio:16/9; object-fit:cover; border-radius:8px; margin-bottom:14px;}
+.init-card{background:var(--paper); border:1px solid var(--line); border-radius:var(--radius); padding:26px; display:block; text-decoration:none; transition:border-color .15s, background .15s;}
+a.init-card:hover{border-color:var(--gold); background:var(--card);}
 .init-card .role-tag{font-family:'IBM Plex Mono', monospace; font-size:11px; text-transform:uppercase; letter-spacing:.06em; color:var(--teal-deep); background:rgba(47,93,80,0.09); padding:4px 9px; border-radius:4px; display:inline-block; margin-bottom:12px;}
 html[dir="rtl"] .init-card .role-tag{font-family:'IBM Plex Sans Arabic', sans-serif;}
 .init-card h3{font-size:18px; margin-bottom:8px;}
