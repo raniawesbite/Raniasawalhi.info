@@ -65,17 +65,17 @@
         "thumbnail": "images/video1-library.jpg"
       },
       {
-        "titleEn": "Leveraging technology for teacher and student leadership",
-        "titleAr": "توظيف التقنية لدعم قيادة المعلم والطالب",
-        "meta": "WISE-ALLIN",
-        "url": "https://youtube.com/@rsawalhi",
+        "titleEn": "Book discussions #WELRead",
+        "titleAr": "لقاءات مناقشة كتب حول القيادة التربوية النسائية",
+        "meta": "#WELRead",
+        "url": "https://www.youtube.com/hashtag/welread",
         "thumbnail": "images/video3-training.jpg"
       },
       {
-        "titleEn": "Back to the future: archery and educational leadership",
-        "titleAr": "العودة إلى المستقبل: الرماية والقيادة التربوية",
-        "meta": "ICSEI Dialogic Series",
-        "url": "https://youtube.com/@rsawalhi",
+        "titleEn": " Humanizing higher education educational leadership",
+        "titleAr": "أنسنة التعليم العالي",
+        "meta": "Eduenterprise",
+        "url": "https://www.youtube.com/watch?v=o8jqJUGKa0I&t=972s",
         "thumbnail": "images/video2-conference.jpg"
       }
     ]
@@ -211,7 +211,7 @@
     },
     "ar": {
       "eyebrow": "المبادرات",
-      "h2": "بناء القدرات خارج إطار البحث"
+      "h2": "بناء القدرات "
     },
     "items": [
       {
@@ -364,7 +364,7 @@
       "labelEn": "educators, school leaders, and administrators trained",
       "labelAr": "معلّم وقائد مدرسي وإداري تم تدريبهم",
       "noteEn": "Across Qatar and the wider region, in design thinking, educational coaching, teacher leadership, and instructional leadership.",
-      "noteAr": "في قطر والمنطقة الأوسع، في مجالات التفكير التصميمي والتدريب التربوي وقيادة المعلم والقيادة التعليمية."
+      "noteAr": "في قطر والدول العربية، في مجالات التفكير التصميمي والتدريب التربوي وقيادة المعلم والقيادة التعليمية."
     }
   },
   "about": {
