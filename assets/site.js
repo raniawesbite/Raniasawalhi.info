@@ -178,9 +178,9 @@ function renderAwards(en){
 /* ---------------- INITIATIVES ---------------- */
 function renderInitiatives(en){
   const T = DATA.initiatives[LANG];
-  const items = DATA.initiatives.items.map(function(i){
-    const thumb = i.image ? '<img class="init-thumb" src="'+esc(i.image)+'" alt="">' : '';
-    return '<div class="init-card">'+thumb+'<span class="role-tag">'+esc(en?i.tagEn:i.tagAr)+'</span><h3>'+esc(i.title)+'</h3><p>'+esc(en?i.descEn:i.descAr)+'</p></div>';
+    const items = DATA.initiatives.items.map(function(i){
+             const inner = '<span class="role-tag">'+esc(en?i.tagEn:i.tagAr)+'</span><h3>'+esc(i.title)+'</h3><p>'+esc(en?i.descEn:i.descAr)+'</p>';
+             return i.url ? '<a class="init-card" href="'+esc(i.url)+'" target="_blank" rel="noopener">'+inner+'</a>' : '<div class="init-card">'+inner+'</div>';
   }).join('');
   return `
   <section>
