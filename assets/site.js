@@ -225,7 +225,7 @@ function renderPublications(en){
   const arOnly = (!en && DATA.publications.arabicOnly) ? (
     '<div style="margin-top:44px;"><div class="media-sub"><h3>منشورات باللغة العربية</h3></div><ul class="pub-list">' +
     DATA.publications.arabicOnly.map(function(a){
-      return '<li class="pub-row"><div><span class="p-title">'+esc(a.title)+'</span>'+(a.venue?'<span class="p-venue">'+esc(a.venue)+'</span>':'')+'</div><span class="p-year">'+esc(a.year)+'</span></li>';
+      return '<li class="pub-row"><div>'+(a.url?'<a class="p-title" href="'+esc(a.url)+'" target="_blank" rel="noopener">'+esc(a.title)+'</a>':'<span class="p-title">'+esc(a.title)+'</span>')+(a.venue?'<span class="p-venue">'+esc(a.venue)+'</span>':'')+'</div><span class="p-year">'+esc(a.year)+'</span></li>';
     }).join('') + '</ul></div>'
   ) : '';
   return `
