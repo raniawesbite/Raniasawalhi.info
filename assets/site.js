@@ -228,8 +228,8 @@ function renderPublications(en){
   const articles = DATA.publications.articles.map(function(a){
     return '<li class="pub-row"><div><span class="p-title">'+esc(en?a.titleEn:a.titleAr)+'</span><span class="p-venue">'+esc(en?a.venueEn:a.venueAr)+'</span></div><span class="p-year">'+esc(a.year)+'</span></li>';
   }).join('');
-  const arOnly = (!en && DATA.publications.arabicOnly) ? (
-    '<div style="margin-top:44px;"><div class="media-sub"><h3>منشورات باللغة العربية</h3></div><ul class="pub-list">' +
+    const arOnly = (DATA.publications.arabicOnly && DATA.publications.arabicOnly.length) ? (
+             '<div style="margin-top:44px;"><div class="media-sub"><h3>'+(en?'Arabic-language publications':'منشورات باللغة العربية')+'</h3></div><ul class="pub-list">' +
     DATA.publications.arabicOnly.map(function(a){
       return '<li class="pub-row"><div>'+(a.url?'<a class="p-title" href="'+esc(a.url)+'" target="_blank" rel="noopener">'+esc(a.title)+'</a>':'<span class="p-title">'+esc(a.title)+'</span>')+(a.venue?'<span class="p-venue">'+esc(a.venue)+'</span>':'')+'</div><span class="p-year">'+esc(a.year)+'</span></li>';
     }).join('') + '</ul></div>'
