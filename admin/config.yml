@@ -291,6 +291,14 @@ collections:
                   - {label: "Meta line (e.g. event name)", name: meta, widget: string}
                   - {label: "Video URL", name: url, widget: string}
                   - {label: "Thumbnail image", name: thumbnail, widget: image, required: false}
+              - label: "Podcasts list"
+                name: podcasts
+                widget: list
+                fields:
+                  - {label: "Title (English)", name: titleEn, widget: string}
+                  - {label: "Title (Arabic)", name: titleAr, widget: string}
+                  - {label: "Meta line (e.g. show name)", name: meta, widget: string, required: false}
+                  - {label: "Podcast/episode URL (SoundCloud, Spotify, etc.)", name: url, widget: string}
 
           - label: "Consultations Section"
             name: consultations
