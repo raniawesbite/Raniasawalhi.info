@@ -183,7 +183,11 @@ html[dir="rtl"] .contact-form input, html[dir="rtl"] .contact-form textarea{font
 @media (max-width: 900px){
   .hero-grid, .about-grid, .footer-grid, .awards-grid, .init-grid, .pub-grid, .consult-grid{grid-template-columns:1fr;}
   .video-grid{grid-template-columns:1fr;}
-  .navlinks{display:none;}
+    .hamburger{display:inline-flex; align-items:center; justify-content:center; width:38px; height:38px; font-size:22px; background:none; border:1px solid var(--line-strong); border-radius:6px; cursor:pointer; color:var(--ink);}
+      nav{flex-wrap:wrap;}
+      .navlinks{display:none; width:100%; flex-direction:column; align-items:flex-start; gap:14px; padding:18px 0 6px; border-top:1px solid var(--line); margin-top:14px;}
+      .navlinks.open{display:flex;}
+      .navlinks .langswitch{margin-inline-start:0;}
   .hero-text h1{font-size:26px;}
   .events-panel{padding:28px;}
   .pos-row{grid-template-columns:1fr;}
