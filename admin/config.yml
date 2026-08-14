@@ -262,6 +262,7 @@ collections:
                   - {label: Title, name: title, widget: string}
                   - {label: Details, name: venue, widget: string, required: false}
                   - {label: Year, name: year, widget: string}
+                  - {label: "Link (optional)", name: url, widget: string, required: false}
 
           - label: "Media Section"
             name: media
