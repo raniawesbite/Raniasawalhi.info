@@ -248,7 +248,16 @@ function renderMedia(en){
   const videos = DATA.media.videos.map(function(v){
     const thumb = v.thumbnail ? '<img src="'+esc(v.thumbnail)+'">' : '';
     return '<a href="'+esc(v.url)+'" class="video-card" target="_blank" rel="noopener"><div class="video-thumb">'+thumb+'<div class="play"></div></div><h4>'+esc(en?v.titleEn:v.titleAr)+'</h4><p class="meta">'+esc(v.meta)+'</p></a>';
-  }).join('');
+}).join('');
+     const podcastList = DATA.media.podcasts || [];
+     const podcasts = podcastList.map(function(p){
+            const title = '<h4>'+esc(en?p.titleEn:p.titleAr)+'</h4>'+(p.meta?'<p class="meta">'+esc(p.meta)+'</p>':'');
+            if(p.url && p.url.indexOf('soundcloud.com') !== -1){
+                     const embedSrc = 'https://w.soundcloud.com/player/?url='+encodeURIComponent(p.url)+'&color=%23c6871f&auto_play=false&show_teaser=false';
+                     return '<div class="podcast-card">'+title+'<iframe class="podcast-embed" width="100%" height="120" scrolling="no" frameborder="no" src="'+embedSrc+'"></iframe></div>';
+            }
+            return '<a href="'+esc(p.url)+'" class="podcast-card podcast-link" target="_blank" rel="noopener">'+title+'</a>';
+     }).join('');
   const linksMap = [
     {label:{en:'YouTube channel',ar:'قناة يوتيوب'}, url: DATA.site.socialLinks.youtube},
     {label:{en:'LinkedIn',ar:'لينكدإن'}, url: DATA.site.socialLinks.linkedin},
