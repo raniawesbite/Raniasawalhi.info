@@ -78,6 +78,26 @@
         "url": "https://www.youtube.com/watch?v=o8jqJUGKa0I&t=972s",
         "thumbnail": "images/video2-conference.jpg"
       }
+    ],
+    "podcasts": [
+      {
+        "titleEn": "Higher Education",
+        "titleAr": "التعليم العالي",
+        "meta": "Atheer Platform",
+        "url": "https://soundcloud.com/atheerplatform/higher-education"
+      },
+      {
+        "titleEn": "Back to School",
+        "titleAr": "العودة إلى المدرسة",
+        "meta": "Atheer Platform",
+        "url": "https://soundcloud.com/atheerplatform/back-to-school"
+      },
+      {
+        "titleEn": "Rania Sawalhi on Leadership and Humanity in Education",
+        "titleAr": "رانيا الصوالحي: القيادة والإنسانية في التعليم",
+        "meta": "The Edu Salon Podcast",
+        "url": "https://soundcloud.com/the-edu-salon-podcast/rania-sawalhi-on-leadership-and-humanity-in-education"
+      }
     ]
   },
   "site": {
