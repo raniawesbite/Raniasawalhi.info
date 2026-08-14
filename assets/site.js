@@ -273,6 +273,7 @@ function renderMedia(en){
     <div class="wrap">
       <div class="section-head"><div><p class="eyebrow">${esc(T.eyebrow)}</p><h2>${esc(T.h2)}</h2></div></div>
       <div class="video-grid">${videos}</div>
+            ${podcastList.length ? '<div class="podcast-grid">'+podcasts+'</div>' : ''}
       <div class="media-sub"><h3>${esc(T.elseSub)}</h3></div>
       <div class="elsewhere">${links}</div>
     </div>
