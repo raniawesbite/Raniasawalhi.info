@@ -50,6 +50,11 @@ function setLang(l){
   renderPage();
 }
 
+    function toggleMobileNav(){
+             const el = document.getElementById('navlinks');
+             if (el) el.classList.toggle('open');
+    }
+
 function renderPage(){
   const en = LANG === 'en';
   document.documentElement.lang = LANG;
@@ -80,7 +85,8 @@ function renderHeader(en){
   <header>
     <nav>
       <a href="index.html${en?'':'?lang=ar'}" class="logo">${esc(nav.logoName)}<span>${esc(nav.logoTag)}</span></a>
-      <ul class="navlinks">
+            <button class="hamburger" onclick="toggleMobileNav()" aria-label="Menu">&#9776;</button>
+      <ul class="navlinks" id="navlinks">
         ${links}
         <li><button class="btn btn-primary" onclick="openBooking()">${esc(nav.bookBtn)}</button></li>
         <li class="langswitch">
