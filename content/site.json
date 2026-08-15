@@ -193,14 +193,16 @@
     ],
     "arabicOnly": [
       {
-        "title": "ممارسات المعلم القيادي",
+        "title": "ممارسات المعلم القيادي Teacher Leadership",
         "venue": "",
-        "year": "2026"
+        "year": "2026",
+        "url": ""
       },
       {
         "title": "محطات وبصائر تربوية وتعليمية في حياة المسيري",
         "venue": "مع O. Dabbagh, G. Hawari",
-        "year": "2026"
+        "year": "2026",
+        "url": "https://eduenterprise.org/ar/publications"
       },
       {
         "title": "نظام التربية والتعليم الأردني",
@@ -210,17 +212,20 @@
       {
         "title": "إشراقة معلم",
         "venue": "مع T. Al-Louh, G. Hawari",
-        "year": "2024"
+        "year": "2024",
+        "url": "https://eduenterprise.org/ar/publications"
       },
       {
         "title": "إضاءات من حياة د. ماجد عرسان الكيلاني: الرحلة والأثر التربوي",
         "venue": "مع G. Hawari",
-        "year": "2022"
+        "year": "2022",
+        "url": "https://eduenterprise.org/ar/publications"
       },
       {
         "title": "كن نورًا: ممارسات المعلم القيادي",
         "venue": "",
-        "year": "2020"
+        "year": "2020",
+        "url": "https://eduenterprise.org/ar/publications"
       },
       {
         "title": "عقبال الدكتوراه",
