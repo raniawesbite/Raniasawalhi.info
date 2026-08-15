@@ -1,3 +1,12 @@
+/* ---------------- Cloudflare Web Analytics ---------------- */
+(function(){
+     var s = document.createElement('script');
+     s.type = 'module';
+     s.src = 'https://static.cloudflareinsights.com/beacon.min.js';
+     s.setAttribute('data-cf-beacon', '{"token": "6641e48d8ed84253a5b1bf6ffd1898c6"}');
+     document.head.appendChild(s);
+})();
+
 /* ============================================================
    Shared engine for the multi-page site.
    Every page includes this file, then calls initPage('pageId').
