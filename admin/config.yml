@@ -52,6 +52,7 @@ collections:
                   - {label: Publications, name: publications, widget: string}
                   - {label: Media, name: media, widget: string}
                   - {label: Consultations, name: consultations, widget: string}
+                  - {label: Blogs, name: blogs, widget: string}
                   - {label: "Book button", name: bookBtn, widget: string}
               - label: Arabic
                 name: ar
@@ -66,6 +67,7 @@ collections:
                   - {label: Publications, name: publications, widget: string}
                   - {label: Media, name: media, widget: string}
                   - {label: Consultations, name: consultations, widget: string}
+                  - {label: Blogs, name: blogs, widget: string}
                   - {label: "Book button", name: bookBtn, widget: string}
 
           - label: "Hero Section"
@@ -332,7 +334,33 @@ collections:
                   - {label: "Title (Arabic)", name: titleAr, widget: string}
                   - {label: "Description (English) — currently hidden on the site", name: descEn, widget: text, required: false}
                   - {label: "Description (Arabic) — currently hidden on the site", name: descAr, widget: text, required: false}
-
+          - label: "Blogs Section"
+            name: blogs
+            widget: object
+            fields:
+              - {label: "Section photo (optional)", name: sectionImage, widget: image, required: false}
+              - {label: "Section photo position", name: sectionImagePos, widget: select, options: ["left", "right"], default: "right", required: false}
+              - label: English
+                name: en
+                widget: object
+                fields:
+                  - {label: "Small label", name: eyebrow, widget: string}
+                  - {label: Heading, name: h2, widget: string}
+              - label: Arabic
+                name: ar
+                widget: object
+                fields:
+                  - {label: "Small label", name: eyebrow, widget: string}
+                  - {label: Heading, name: h2, widget: string}
+              - label: "Blog list"
+                name: items
+                widget: list
+                fields:
+                  - {label: "Title (English)", name: titleEn, widget: string}
+                  - {label: "Title (Arabic)", name: titleAr, widget: string}
+                  - {label: "Description (English)", name: descEn, widget: text}
+                  - {label: "Description (Arabic)", name: descAr, widget: text}
+                  - {label: "Link (optional)", name: url, widget: string, required: false}
           - label: "Contact / Footer Section"
             name: contact
             widget: object
