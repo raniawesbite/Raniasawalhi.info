@@ -27,6 +27,7 @@ var PAGES = [
   { id: 'publications',  file: 'publications.html',   labelKey: 'publications' },
   { id: 'media',         file: 'media.html',          labelKey: 'media' },
   { id: 'consultations', file: 'consultations.html',  labelKey: 'consultations' },
+     { id: 'blogs',         file: 'blogs.html',          labelKey: 'blogs' },
   { id: 'contact',       file: 'contact.html',        labelKey: null }
 ];
 
@@ -73,7 +74,7 @@ function renderPage(){
     home: renderHome, about: renderAbout, awards: renderAwards,
     initiatives: renderInitiatives, teaching: renderTeaching,
     publications: renderPublications, media: renderMedia,
-    consultations: renderConsultations, contact: renderContact
+          consultations: renderConsultations, blogs: renderBlogs, contact: renderContact
   }[CURRENT_PAGE];
 
   document.getElementById('app').innerHTML =
@@ -318,8 +319,22 @@ function renderConsultations(en){
   </section>`;
 }
 
-/* ---------------- CONTACT ---------------- */
-function renderContact(en){
+/* ---------------- BLOGS ---------------- */
+function renderBlogs(en){
+  const T = DATA.blogs[LANG];
+  const items = (DATA.blogs.items||[]).map(function(b){
+    const visit = b.url ? '<span class="visit-link">'+(en?'Read article':'قراءة المقال')+' <span class="arrow">'+(en?'\u2192':'\u2190')+'</span></span>' : '';
+    const inner = '<h3>'+esc(en?b.titleEn:b.titleAr)+'</h3><p>'+esc(en?b.descEn:b.descAr)+'</p>'+visit;
+    return b.url ? '<a class="init-card" href="'+esc(b.url)+'" target="_blank" rel="noopener">'+inner+'</a>' : '<div class="init-card">'+inner+'</div>';
+  }).join('');
+  return `
+  <section>
+    <div class="wrap">
+      <div class="section-head${DATA.blogs.sectionImage?(DATA.blogs.sectionImagePos==='left'?' photo-left':' photo-right'):''}"><div><p class="eyebrow">${esc(T.eyebrow)}</p><h2>${esc(T.h2)}</h2></div>${DATA.blogs.sectionImage?'<img class="section-photo" src="'+esc(DATA.blogs.sectionImage)+'" alt="">':''}</div>
+      <div class="init-grid">${items}</div>
+    </div>
+      </section>`;
+}
   const T = DATA.contact[LANG];
   return `
   <section>
