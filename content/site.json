@@ -26,6 +26,7 @@
       "teaching": "Teaching",
       "about": "About",
       "logoTag": "Educational Leadership",
+      "blogs": "Blogs",
       "bookBtn": "Book a session",
       "awards": "Awards",
       "logoName": "Dr. Rania Sawalhi"
@@ -38,6 +39,7 @@
       "teaching": "التدريس",
       "about": "نبذة",
       "logoTag": "القيادة التربوية",
+      "blogs": "مقالات ",
       "bookBtn": "احجز موعدًا",
       "awards": "الجوائز",
       "logoName": "د. رانيا الصوالحي"
@@ -429,6 +431,99 @@
       "en": "Ph.D. Educational Leadership, University of Warwick, UK — 2019",
       "ar": "دكتوراه القيادة التربوية، جامعة وورك، المملكة المتحدة — 2019"
     }
+  },
+  "blogs": {
+    "items": [
+      {
+        "titleEn": "Tamkeen / Sloki Hayah Magazine",
+        "titleAr": "مجلة سلوكي حياة / تمكين",
+        "url": "https://ar.alawn.org/Images/Documents/9e8ea952-4392-4361-b1eb-02a0a57ed3ce.pdf",
+        "descEn": "An article related to education after COVID-19, published in Tamkeen / Sloki Hayah Magazine.",
+        "descAr": "مقال متعلق بالتعليم بعد جائحة كورونا، نُشر في مجلة سلوكي حياة / تمكين."
+      },
+      {
+        "titleEn": "Teacher Leadership and Reading in Schools",
+        "titleAr": "ثقافة نوادي القراءة  في مدارسنا",
+        "descEn": "This article discusses teacher leadership practices to enhance reading in schools and communities.",
+        "descAr": "يناقش هذا المقال ممارسات القيادة المعلمية لتعزيز القراءة في المدارس والمجتمعات.",
+        "url": "https://islamonline.net/%D8%AB%D9%82%D8%A7%D9%81%D8%A9-%D9%86%D9%88%D8%A7%D8%AF%D9%8A-%D8%A7%D9%84%D9%82%D8%B1%D8%A7%D8%A1%D8%A9-%D9%85%D8%AF%D8%A7%D8%B1%D8%B3%D9%86%D8%A7/"
+      },
+      {
+        "titleEn": "Women Leadership",
+        "titleAr": "المرأة (المعتلة)",
+        "descEn": "A new article on social innovation showcasing models and practical approaches to women's educational leadership.",
+        "descAr": "مقال جديد في الابتكار الاجتماعي يبيّن نماذج وممارسات عملية للقيادة التربوية النسائية."
+      },
+      {
+        "titleEn": "Museum's Role in Our Lives",
+        "titleAr": "دور المتاحف في حياتنا: نظرة متجددة",
+        "descEn": "A new perspective on the role of museums in Arab countries and how to utilize them as innovation hubs.",
+        "descAr": "نظرة جديدة لدور المتاحف في الدول العربية وكيفية استثمارها كمراكز للابتكار."
+      },
+      {
+        "titleEn": "Educators as Designers",
+        "titleAr": "التربويون كمصممين",
+        "descEn": "Dr. Sawalhi describes how educators can use a design-thinking approach in their practices to develop innovative solutions.",
+        "descAr": "تصف د. الصوالحي كيف يمكن للتربويين استخدام منهجية التفكير التصميمي في ممارساتهم لتطوير حلول تعليمية مبتكرة.",
+        "url": "https://innovationhub.social/articles/sit05_08"
+      },
+      {
+        "titleEn": "Educational Leadership Labs",
+        "titleAr": "مختبرات القيادة التربوية",
+        "descEn": "This article presents educational leadership lab initiatives as part of social innovation to develop innovative educational solutions.",
+        "descAr": "يقدّم هذا المقال مبادرات مختبرات القيادة التربوية كجزء من الابتكار الاجتماعي لتطوير حلول تعليمية مبتكرة.",
+        "url": "https://innovationhub.social/articles/sit04_04"
+      },
+      {
+        "titleEn": "Humanizing Education",
+        "titleAr": "أنسنة تقييم التعليم: نحو نظرة إنسانية أكثر للتعليم",
+        "descEn": "Dr. Rania Sawalhi presents a model to humanize assessment and create new assessment methods.",
+        "descAr": "تقدّم د. رانيا الصوالحي نموذجًا لأنسنة التقييم وابتكار أساليب تقييم جديدة.",
+        "url": "https://innovationhub.social/articles/ansnt-tqyym-altelym-nhw-nzrt-akthr-insanyt-lltelym"
+      },
+      {
+        "titleEn": "Close-Up Education",
+        "titleAr": "التعليم عن قرب - منهجيات",
+        "descEn": "While everyone talked about physical distancing during COVID-19, Dr. Rania highlighted the need for caring, close educational opportunities.",
+        "descAr": "بينما تحدث الجميع عن التباعد الجسدي خلال جائحة كورونا، أكدت د. رانيا على أهمية توفير فرص تعليمية أكثر قربا.",
+        "url": "https://www.manhajiyat.com/ar/%D8%A7%D9%84%D8%AA%D8%B9%D9%84%D9%8A%D9%85-%D8%B9%D9%86-%D9%82%D8%B1%D8%A8/%D9%85%D9%84%D9%81%D9%91-%D8%A7%D9%84%D8%B9%D8%AF%D8%AF"
+      },
+      {
+        "titleEn": "Be a Light — Teacher Leadership",
+        "titleAr": "كن نورًا - القيادة المعلمية - منهجيات",
+        "descEn": "Dr. Rania explains the Teacher Leadership Orbit model that she developed.",
+        "descAr": "تشرح د. رانيا نموذج مدار القيادة المعلمية الذي طوّرته.",
+        "url": "https://www.manhajiyat.com/ar/%D9%83%D9%86-%D9%86%D9%88%D8%B1%D9%8B%D8%A7-%D9%85%D9%85%D8%A7%D8%B1%D8%B3%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D8%B9%D9%84%D9%91%D9%85%D9%8A%D9%86-%D8%A7%D9%84%D9%82%D9%8A%D8%A7%D8%AF%D9%8A%D9%91%D8%A9/%D9%85%D9%84%D9%81%D9%91-%D8%A7%D9%84%D8%B9%D8%AF%D8%AF"
+      },
+      {
+        "titleEn": "Perspectives 1",
+        "titleAr": "وجهات نظر ١",
+        "descEn": "Rania and colleagues share their perspectives: what is preventing diversity on editorial boards?",
+        "descAr": "تشارك رانيا وزملاؤها وجهات نظرهم: ما الذي يعيق التنوع في الهيئات التحريرية؟",
+        "url": "https://www.emeraldgrouppublishing.com/opinion-and-blog/what-preventing-diversity-editorial-boards"
+      },
+      {
+        "titleEn": "Back to the Future: Archery and Educational Leadership",
+        "titleAr": "العودة إلى المستقبل: الرماية والقيادة التربوية",
+        "descEn": "This 2022 ICSEI Dialogue responds to that year's virtual conference theme, exploring problems and possibilities for educational equity, quality, and sustainability.",
+        "descAr": "يستجيب هذا الحوار ضمن مؤتمر ICSEI لعام 2022 لموضوع المؤتمر الافتراضي: التحديات والإمكانات لتحقيق العدالة والجودة والاستدامة التعليمية.",
+        "url": "https://www.icsei.net/wp-content/uploads/2022/01/ICSEI-Dialogic-2022-1.pdf"
+      },
+      {
+        "titleEn": "Reading and My Children",
+        "titleAr": "منعت أولادي من القراءة وهددتهم بإقفال مكتباتهم",
+        "descEn": "Dr. Rania shares practical examples of how to encourage children to read.",
+        "descAr": "تشارك د. رانيا أمثلة عملية حول كيفية تشجيع الأطفال على القراءة.",
+        "url": "https://www.alquds.co.uk/%D8%A7%D9%84%D8%A8%D8%A7%D8%AD%D8%AB%D8%A9-%D8%A7%D9%84%D8%AA%D8%B1%D8%A8%D9%88%D9%8A%D8%A9-%D8%A7%D9%84%D8%A3%D8%B1%D8%AF%D9%86%D9%8A%D8%A9-%D8%B1%D8%A7%D9%86%D9%8A%D8%A7-%D8%A7%D9%84%D8%B5%D9%88/"
+      },
+      {
+        "titleEn": "From Classrooms to Entrepreneurship: The Teacher as an Engineer of Transformation",
+        "titleAr": "من الفصول الدراسية إلى آفاق الريادة: عودة \"المعلم\" كمهندس للتحول",
+        "descEn": "Developed from a talk on 'Teacherpreneurship,' Dr. Rania Sawalhi explores how design thinking can restore teachers' professional agency as engineers of the learning experience.",
+        "descAr": "مقال مطوَّر من محاضرة قدّمتها د. رانيا الصوالحي حول \"ريادة المعلمين\"، يستعرض كيف يمكن للتفكير التصميمي أن يعيد للمعلم سيادته المهنية بوصفه مهندسًا لتجربة التعلّم.",
+        "url": "https://innovationhub.social/articles/mn-alfswl-aldrasyt-ila-afaq-alryadt-ewdt-almelm-kmhnds-llthwl"
+      }
+    ]
   },
   "awards": {
     "en": {
