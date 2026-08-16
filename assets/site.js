@@ -335,7 +335,8 @@ function renderBlogs(en){
     </div>
       </section>`;
 }
-  const T = DATA.contact[LANG];
+  function renderContact(en){
+         const T = DATA.contact[LANG];
   return `
   <section>
     <div class="wrap footer-grid">
