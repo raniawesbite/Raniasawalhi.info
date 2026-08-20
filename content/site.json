@@ -417,13 +417,13 @@
   "about": {
     "en": {
       "h2": "Research grounded in practice.",
-      "p1": "Dr. Sawalhi's work spans three authored/edited books with Routledge and Springer Nature, nine book chapters, and 31 peer-reviewed journal articles — including comparative studies across Jordan, Qatar, Oman, Kuwait, the UAE, and the wider MENA region, with recent collaborations in the Netherlands and North America. She is currently completing two edited volumes under contract with Emerald Publishing and serves as Regional Editor (MENA) for The Second International Handbook of School Effectiveness and Improvement (Springer).",
+      "p1": "Dr. Sawalhi's work spans three authored/edited books with Routledge and Springer Nature, 10 book chapters, and 31 peer-reviewed journal articles — including comparative studies across Jordan, Qatar, Oman, Kuwait, the UAE, and the wider MENA region, with recent collaborations in the Netherlands and North America. She is currently completing two edited volumes under contract with Emerald Publishing and serves as Regional Editor (MENA) for The Second International Handbook of School Effectiveness and Improvement (Springer).",
       "quote": "Twenty years of research matter only when they change what leadership looks like in the everyday life of a school—on a Tuesday morning, in a teacher’s classroom, and in the experiences of students.",
       "p2": "Beyond academia, she has consistently translated research into practice through her professional roles, including as Deputy Director of Learning & Outreach at Dadu, the Children’s Museum of Qatar, and through co-founding NEAR/WERA and Eduenterprise—two regional initiatives dedicated to building educational leadership capacity across the Arab world."
     },
     "ar": {
       "h2": "بحث متجذر في الممارسة.",
-      "p1": "يمتد عمل د. الصوالحي على ثلاثة كتب مؤلَّفة أو محرَّرة مع Routledge وSpringer Nature، وتسعة فصول كتب، و31 مقالًا محكّمًا — شملت دراسات مقارِنة عبر الأردن وقطر وعُمان والكويت والإمارات ومنطقة الشرق الأوسط وشمال أفريقيا، إضافة إلى تعاونات حديثة في هولندا وأمريكا الشمالية. وهي حاليًا بصدد إنجاز مجلدين محرَّرين بعقد مع Emerald Publishing، وتشغل منصب المحرر الإقليمي (منطقة الشرق الأوسط وشمال أفريقيا) في The Second International Handbook of School Effectiveness and Improvement (Springer).",
+      "p1": "يمتد عمل د. الصوالحي على ثلاثة كتب مؤلَّفة أو محرَّرة مع Routledge وSpringer Nature، و10 فصول كتب، و31 مقالًا محكّمًا — شملت دراسات مقارِنة عبر الأردن وقطر وعُمان والكويت والإمارات ومنطقة الشرق الأوسط وشمال أفريقيا، إضافة إلى تعاونات حديثة في هولندا وأمريكا الشمالية. وهي حاليًا بصدد إنجاز مجلدين محرَّرين بعقد مع Emerald Publishing، وتشغل منصب المحرر الإقليمي (منطقة الشرق الأوسط وشمال أفريقيا) في The Second International Handbook of School Effectiveness and Improvement (Springer).",
       "quote": " قيمة عشرين عامًا من البحث والممارسة لا تكمن في المعرفة التي ننتجها فحسب، بل في قدرتها على إحداث تغيير ملموس في كيفية مشاركة المعلمين والطلبة في الممارسات القيادية اليومية.",
       "p2": "إلى جانب العمل الأكاديمي، حرصتُ على ترجمة البحث والمعرفة التربوية إلى ممارسة من خلال عملي نائبًا لمدير التعلّم والتواصل المجتمعي في متحف الأطفال قطر، ومن خلال تأسيسي وشراكتي في مبادرات إقليمية تُعنى ببناء القدرات وتعزيز القيادة التربوية، من أبرزها شبكة NEAR/WERA ومؤسسة Eduenterprise، اللتان تعملان على دعم القيادات التربوية وتطوير الممارسات التعليمية في العالم العربي."
     },
@@ -555,21 +555,24 @@
         "titleEn": "ICSEI / JPCC Innovation Award",
         "titleAr": "جائزة ICSEI / JPCC للابتكار",
         "noteEn": "For \"Al-Tharwa Al-Naema,\" a female empowerment program combining career readiness and social innovation",
-        "noteAr": "عن برنامج \"الثروة الناعمة\" لتمكين المرأة، الجامع بين الجاهزية المهنية والابتكار الاجتماعي"
+        "noteAr": "عن برنامج \"الثروة الناعمة\" لتمكين المرأة، الجامع بين الجاهزية المهنية والابتكار الاجتماعي",
+        "image": "images/part-of-the-participation-of-dr-rania-sawalhi.jpg"
       },
       {
         "year": "2019",
         "titleEn": "Sheikh Faisal Award — Postgraduate, 2nd place",
         "titleAr": "جائزة الشيخ فيصل — المركز الثاني، دراسات عليا",
         "noteEn": "",
-        "noteAr": ""
+        "noteAr": "",
+        "image": "images/120171_edited.png"
       },
       {
         "year": "2019",
         "titleEn": "Study UK Alumni Awards — Finalist, Social Impact",
         "titleAr": "جائزة خريجي المملكة المتحدة — نهائي فئة الأثر الاجتماعي",
         "noteEn": "",
-        "noteAr": ""
+        "noteAr": "",
+        "image": "images/76e5e89e-0fc5-4ff3-839d-0843ce74cc30.jpg"
       }
     ]
   },
