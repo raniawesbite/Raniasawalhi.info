@@ -128,6 +128,28 @@
     },
     "books": [
       {
+        "tagEn": "Forthcoming",
+        "tagAr": "قيد الإصدار",
+        "title": "Higher Education Reform in the Middle East and North Africa (MENA) Region: Reform, Policy, Leadership and Governance in Transition",
+        "venueEn": "Eds. K. Arar, S. Turan, R. Sawalhi, H. Özen · Routledge · 2027",
+        "venueAr": "تحرير K. Arar, S. Turan, R. Sawalhi, H. Özen · Routledge · 2027",
+        "image": "https://images.routledge.com/common/jackets/crclarge/978104132/9781041329152.jpg"
+      },
+      {
+        "tagEn": "Book (Arabic)",
+        "tagAr": "كتاب",
+        "title": "قيادة المدارس الخاصة: الفلسفة والحوكمة والأثر",
+        "venueEn": "with A. Al-Hawarat · Dar Safaa · 2026",
+        "venueAr": "مع د. عبد الحافظ الحوارات · دار صفاء للنشر والتوزيع · 2026"
+      },
+      {
+        "tagEn": "Book",
+        "tagAr": "كتاب",
+        "title": "The Emerald Handbook of Global Perspectives on Educational Innovation and Leadership",
+        "venueEn": "Eds. N. Sum, P. Campbell, S. MacGregor, R. Sawalhi · Emerald · 2026",
+        "venueAr": "تحرير N. Sum, P. Campbell, S. MacGregor, R. Sawalhi · Emerald · 2026"
+      },
+      {
         "tagEn": "Book",
         "tagAr": "كتاب",
         "title": "Women in Educational Leadership and Community Building: Voices from Across the Globe",
@@ -149,13 +171,6 @@
         "title": "Higher Education and Scientific Research in the Arabian Gulf States",
         "venueEn": "with A. Sellami, K. Arar · 2022",
         "venueAr": "مع A. Sellami, K. Arar · 2022"
-      },
-      {
-        "tagEn": "Forthcoming",
-        "tagAr": "قيد الإصدار",
-        "title": "The Emerald Handbook of Global Perspectives on Educational Innovation and Leadership",
-        "venueEn": "Eds. N. Sum, P. Campbell, S. MacGregor, R. Sawalhi · 2026",
-        "venueAr": "تحرير N. Sum, P. Campbell, S. MacGregor, R. Sawalhi · 2026"
       }
     ],
     "articles": [
@@ -196,6 +211,12 @@
       }
     ],
     "arabicOnly": [
+      {
+        "title": "قيادة المدارس الخاصة: الفلسفة والحوكمة والأثر",
+        "venue": "مع د. عبد الحافظ الحوارات · دار صفاء للنشر والتوزيع",
+        "year": "2026",
+        "url": ""
+      },
       {
         "title": "ممارسات المعلم القيادي Teacher Leadership",
         "venue": "",
